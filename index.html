@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html data-bs-theme="blue">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>student roster</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    
+    .input-div {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body  data-bs-theme="" class="container bg-light">
+  <h2>Full Name and Phone Number</h2>
+  
+  <!-- <form  id="form1"> -->
+    <div class="form-group jumbotron" id="inputDiv" >     
+      <label for="studentName"></label>
+      <input class="form-control form-control-sm" type="text" placeholder="Fullname"  id="studentName"> 
+      <input type="text" id="number" class="form-control form-control-sm" placeholder="Add phone">
+
+    <label for="id"> </label>
+    <!-- <input class="form-control" id="id" type="text"> -->
+    <button id="addButton" class=" btn btn-primary form-control" >
+       Add
+       
+    </button>
+  </div>
+  <!-- </form> -->
+
+
+  <br>
+  <!-- -----------                            ------------- -->
+<br>
+<hr id="hr">
+<div id="myDiv"><div id="searchDiv"></div></div>
+<hr>
+<!-- -----------                            ------------- -->
+
+<!-- <form action=""> -->
+  <!-- <button class="btn btn-outline-success" id="displayButton" onclick="display()">View All</button> -->
+<button class="btn btn-outline-success" onclick="refreshList()">Refresh list</button>
+<button class="btn btn-outline-success" onclick="search()" id="searchButton" >search</button>
+<button class="btn btn-outline-success" id="updator" >Update</button>
+
+  <div id="inputDiv" class=" form-group jumbotron">
+    <!-- <br>
+      <input class="form-control form-control-sm" placeholder="Update Id" id="updateId" type="text">
+      <input type="text" placeholder="update name" class="form-control form-control-sm" id="updateName">
+      <input class="form-control form-control-sm"  id="updatePhone" type="text" placeholder="update phone number">
+  
+      <br>
+      <button  class="form-control  btn btn-primary" id="updateButton">Update</button>
+    </div> -->
+
+<!-- </form> -->
+
+
+  <!-- <button id="delete" class="btn btn-danger">Delete</button> -->
+  <!-- <form > -->
+    <div id="updateDiv">
+      
+    </div>
+<table class= "table table-striped mt-4">
+    <thead>
+        <th>
+            ID
+        </th>
+        <th>
+            Full Name
+        </th>
+        <th>
+            Phone
+        </th>
+        <th>
+          Action
+      </th>
+      <th>
+        Edit
+      </th>
+    </thead>
+    <tbody>
+        
+    </tbody>
+</table>
+<!-- </form> -->
+
+  <!-- <div class="input-div">
+    <input type="text" id="remove">
+    <button onclick="remove()">Delete</button>
+  </div> -->
+
+  <script>
+    
+
+    function update() {
+      // Add your code here for handling the "Update" button click
+      console.log("Update button clicked");
+    }
+
+    function remove() {
+      // Add your code here for handling the "Delete" button click
+      console.log("Delete button clicked");
+    }
+  </script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="week12.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

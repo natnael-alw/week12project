@@ -1,0 +1,53 @@
+body{
+    padding-top: 19px;
+    border: solid rgb(6, 2, 2) 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(242, 239, 236);
+
+}
+form, #updateDiv {
+    /* border: solid 1px gray ; */
+    border-radius: 7px;
+
+}
+p{
+    font-size: xx-large;
+    display: inherit;
+    
+}
+tr:hover{
+    color:brown
+}
+div{
+    justify-content: center;
+    background-color: rgb(222, 218, 212);
+    border-radius: 7px;
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    border: black 1px;
+    color: black;
+}
+[data-bs-theme="red"]{
+    --bs-body-bg: var(--bs-blue);
+    --bs-body-color: var(--bs-red);
+
+
+}
+table{
+    padding: 20px;
+    color: white;
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px
+
+}
+
+input{
+    background-color: rgb(179, 118, 25);
+}
